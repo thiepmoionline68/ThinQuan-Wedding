@@ -667,7 +667,6 @@ main{
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    font-family: var(--secondary-font);
     font-size: var(--title-fs);
     text-align: center;
 }
@@ -764,7 +763,7 @@ main{
 }
 .about-body h3 {
     font-size: var(--title-fs);
-    font-family: var(--secondary-font);
+   
 }
 
 
@@ -1139,7 +1138,7 @@ main{
 .gift-qr {
    max-width: 300px;
 }
-.gift-body .groom_name, .gift-body .bride_name {
+.gift-body , .gift-body {
     font-family: var(--secondary-font);
     font-size: 20px;
     margin-bottom: 8px;
